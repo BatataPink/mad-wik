@@ -1,0 +1,137 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(226, 161, 40);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}/* Definições Globais */
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #1c1c1c; /* Cinza escuro */
+    color: #f2f2f2; /* Cor clara para contraste */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3e3e3e; /* Cinza mais escuro */
+    color: #d4a50b; /* Dourado inspirado no tema Mad Max */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+}
+
+.chamada {
+    background-image: url('caminho_para_a_imagem_de_fundo.jpg'); /* Você pode inserir uma imagem de fundo */
+    background-size: cover;
+    padding: 50px 20px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.chamada h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.chamada p {
+    font-size: 1.5em;
+    color: #3e3e3e; /* Laranja/deserto */
+}
+
+.categoria {
+    padding: 50px 20px;
+    background-color: #282828; /* Cor de fundo similar ao tema Mad Max */
+}
+
+.categoria h2 {
+    color: #d4a50b; /* Dourado */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.categoria-videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categoria-videos a {
+    margin: 10px;
+}
+
+.categoria-videos img {
+    width: 100%;
+    max-width: 300px;
+    border: 5px solid #d4a50b; /* Borda dourada */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.categoria-videos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #d4a50b; /* Efeito hover com borda dourada brilhante */
+}
+
+/* Estilos do iframe (vídeo incorporado) */
+iframe {
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); /* Sombra para o iframe */
+    border-radius: 5px;
+    margin: 20px 0;
+}
